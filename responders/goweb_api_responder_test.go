@@ -1,13 +1,13 @@
 package responders
 
 import (
-	codecsservices "github.com/stretchr/codecs/services"
+	codecsservices "github.com/tylerb/codecs/services"
 	"github.com/stretchr/goweb/context"
 	context_test "github.com/stretchr/goweb/webcontext/test"
 	"github.com/stretchr/testify/assert"
 	"net/url"
 	"testing"
-	"github.com/stretchr/codecs/json"
+	"github.com/tylerb/codecs/json"
 )
 
 func TestAPI_Interface(t *testing.T) {

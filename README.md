@@ -39,7 +39,7 @@ We are looking to put together a list of companies / people that are using Goweb
   * Better package structure
   * Modular design, making adding new stuff easy
   * Handler mechanism to easily add pre and post handlers to certain requests
-  * Uses [stretchr/codecs](https://github.com/stretchr/codecs) package allowing better support for multiple formats
+  * Uses [tylerb/codecs](https://github.com/tylerb/codecs) package allowing better support for multiple formats
   * Easily match paths using Regex instead
   * Better error management
   * Performance improvements from Goweb 1

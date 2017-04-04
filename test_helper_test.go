@@ -1,7 +1,7 @@
 package goweb
 
 import (
-	"github.com/stretchr/codecs/services"
+	"github.com/tylerb/codecs/services"
 	"github.com/stretchr/goweb/context"
 	"github.com/stretchr/goweb/handlers"
 	"github.com/stretchr/testify/assert"

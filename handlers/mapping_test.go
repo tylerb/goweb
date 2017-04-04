@@ -2,7 +2,7 @@ package handlers
 
 import (
 	"fmt"
-	codecsservices "github.com/stretchr/codecs/services"
+	codecsservices "github.com/tylerb/codecs/services"
 	"github.com/stretchr/goweb/context"
 	controllers_test "github.com/stretchr/goweb/controllers/test"
 	handlers_test "github.com/stretchr/goweb/handlers/test"

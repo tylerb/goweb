@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"testing"
 
-	codecsservices "github.com/stretchr/codecs/services"
+	codecsservices "github.com/tylerb/codecs/services"
 	"github.com/stretchr/goweb/context"
 	handlers_test "github.com/stretchr/goweb/handlers/test"
 	"github.com/stretchr/testify/assert"

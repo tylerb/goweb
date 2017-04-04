@@ -1,15 +1,16 @@
 package webcontext
 
 import (
-	codecsservices "github.com/stretchr/codecs/services"
-	"github.com/stretchr/goweb/context"
-	"github.com/stretchr/goweb/paths"
-	"github.com/stretchr/objx"
 	"io/ioutil"
 	"net/http"
 	"net/url"
 	"path"
 	"strings"
+
+	"github.com/stretchr/goweb/context"
+	"github.com/stretchr/goweb/paths"
+	"github.com/stretchr/objx"
+	codecsservices "github.com/tylerb/codecs/services"
 )
 
 // WebContext is a real context.Context that represents a single request.

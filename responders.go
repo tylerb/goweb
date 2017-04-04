@@ -1,7 +1,7 @@
 package goweb
 
 import (
-	codecsservices "github.com/stretchr/codecs/services"
+	codecsservices "github.com/tylerb/codecs/services"
 	"github.com/stretchr/goweb/responders"
 )
 
