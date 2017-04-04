@@ -65,7 +65,7 @@ func (p *PathPattern) GetPathMatch(path *Path) *PathMatch {
 	lastCheckSegmentType := getSegmentType(lastCheckSegment)
 
 	// handle catchall prefix, prefix literal, etc
-	// https://github.com/stretchr/goweb/issues/53
+	// https://github.com/tylerb/goweb/issues/53
 	if getSegmentType(checkSegments[0]) == segmentTypeCatchall {
 		//ensure we are working with only literals
 		for _, pathSegment := range pathSegments {
@@ -136,7 +136,7 @@ func (p *PathPattern) GetPathMatch(path *Path) *PathMatch {
 				// set the parameter value
 				pathMatch.Parameters[cleanSegmentName(checkSegment)] = pathSegments[segmentIndex]
 			} else {
-				// missing variable - and it's not optional - see https://github.com/stretchr/goweb/issues/77
+				// missing variable - and it's not optional - see https://github.com/tylerb/goweb/issues/77
 				return PathDoesntMatch
 			}
 

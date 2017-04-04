@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	codecsservices "github.com/tylerb/codecs/services"
-	"github.com/stretchr/goweb/context"
-	handlers_test "github.com/stretchr/goweb/handlers/test"
+	"github.com/tylerb/goweb/context"
+	handlers_test "github.com/tylerb/goweb/handlers/test"
 	"github.com/stretchr/testify/assert"
 	http_test "github.com/stretchr/testify/http"
 	"github.com/stretchr/testify/mock"

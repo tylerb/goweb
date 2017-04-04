@@ -3,8 +3,8 @@ package handlers
 import (
 	"fmt"
 	codecsservices "github.com/tylerb/codecs/services"
-	gowebhttp "github.com/stretchr/goweb/http"
-	"github.com/stretchr/goweb/webcontext"
+	gowebhttp "github.com/tylerb/goweb/http"
+	"github.com/tylerb/goweb/webcontext"
 	"github.com/stretchr/objx"
 	"net/http"
 	"strings"

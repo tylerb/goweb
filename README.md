@@ -6,8 +6,8 @@ A lightweight RESTful web framework for Go.
 
 [![wercker status](https://app.wercker.com/status/560303ffa373a43c863b7f352262f1e3/m "wercker status")](https://app.wercker.com/project/bykey/560303ffa373a43c863b7f352262f1e3)
 
-  * For examples and usage, please read the [Goweb API Documentation](http://godoc.org/github.com/stretchr/goweb)
-  * Read our [Articles](https://github.com/stretchr/goweb/wiki)
+  * For examples and usage, please read the [Goweb API Documentation](http://godoc.org/github.com/tylerb/goweb)
+  * Read our [Articles](https://github.com/tylerb/goweb/wiki)
 
 ## Who uses Goweb?
 
@@ -17,15 +17,15 @@ A lightweight RESTful web framework for Go.
 
 #### Are you using Goweb?
 
-We are looking to put together a list of companies / people that are using Goweb.  If you would like to help promote Goweb, and be included in the list, please [comment on our issue](https://github.com/stretchr/goweb/issues/40) and we'll get it going.  Thanks.
+We are looking to put together a list of companies / people that are using Goweb.  If you would like to help promote Goweb, and be included in the list, please [comment on our issue](https://github.com/tylerb/goweb/issues/40) and we'll get it going.  Thanks.
 
 ## Get started
 
-  * To install, run `go get github.com/stretchr/goweb`
-  * Import the package as usual with `import "github.com/stretchr/goweb"` in your code.
-  * Look at the [example_webapp](https://github.com/stretchr/goweb/blob/master/example_webapp/main.go) project for some ideas of how to get going
-  * Read the [Goweb API Documentation](http://godoc.org/github.com/stretchr/goweb)
-  * To update to the latest version of goweb, just run `go get -u github.com/stretchr/goweb`
+  * To install, run `go get github.com/tylerb/goweb`
+  * Import the package as usual with `import "github.com/tylerb/goweb"` in your code.
+  * Look at the [example_webapp](https://github.com/tylerb/goweb/blob/master/example_webapp/main.go) project for some ideas of how to get going
+  * Read the [Goweb API Documentation](http://godoc.org/github.com/tylerb/goweb)
+  * To update to the latest version of goweb, just run `go get -u github.com/tylerb/goweb`
 
 ## Features
 
@@ -44,11 +44,11 @@ We are looking to put together a list of companies / people that are using Goweb
   * Better error management
   * Performance improvements from Goweb 1
 
-## Interesting [articles](https://github.com/stretchr/goweb/wiki)
+## Interesting [articles](https://github.com/tylerb/goweb/wiki)
 
-  * [Mapping deep nested RESTful controllers](https://github.com/stretchr/goweb/wiki/Mapping-deep-nested-RESTful-controllers)
-  * [Using different HTTP Methods when mapping controllers](https://github.com/stretchr/goweb/wiki/Using-different-HTTP-Methods-when-mapping-controllers)
-  * [Controlling API output](https://github.com/stretchr/goweb/wiki/Controlling-API-output)
+  * [Mapping deep nested RESTful controllers](https://github.com/tylerb/goweb/wiki/Mapping-deep-nested-RESTful-controllers)
+  * [Using different HTTP Methods when mapping controllers](https://github.com/tylerb/goweb/wiki/Using-different-HTTP-Methods-when-mapping-controllers)
+  * [Controlling API output](https://github.com/tylerb/goweb/wiki/Controlling-API-output)
 
 ## People who use Goweb also use
 
@@ -63,7 +63,7 @@ We are looking to put together a list of companies / people that are using Goweb
 Contributing
 ============
 
-Please feel free to submit issues, fork the repository and send pull requests.  Be sure to [check out our development practices](https://github.com/stretchr/goweb/wiki/Development-practices) before you get going.
+Please feel free to submit issues, fork the repository and send pull requests.  Be sure to [check out our development practices](https://github.com/tylerb/goweb/wiki/Development-practices) before you get going.
 
 When submitting an issue, we ask that you please include steps to reproduce the issue so we can see it on our end also!
 

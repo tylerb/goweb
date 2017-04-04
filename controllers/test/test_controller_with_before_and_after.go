@@ -1,7 +1,7 @@
 package test
 
 import (
-	"github.com/stretchr/goweb/context"
+	"github.com/tylerb/goweb/context"
 	"github.com/stretchr/testify/mock"
 )
 

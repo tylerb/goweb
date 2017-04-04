@@ -2,7 +2,7 @@ package responders
 
 import (
 	codecsservices "github.com/tylerb/codecs/services"
-	"github.com/stretchr/goweb/context"
+	"github.com/tylerb/goweb/context"
 )
 
 const (

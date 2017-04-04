@@ -2,7 +2,7 @@ package webcontext
 
 import (
 	codecsservices "github.com/tylerb/codecs/services"
-	"github.com/stretchr/goweb/context"
+	"github.com/tylerb/goweb/context"
 	"github.com/stretchr/objx"
 	"github.com/stretchr/testify/assert"
 	http_test "github.com/stretchr/testify/http"

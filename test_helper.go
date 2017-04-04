@@ -3,7 +3,7 @@
 package goweb
 
 import (
-	"github.com/stretchr/goweb/handlers"
+	"github.com/tylerb/goweb/handlers"
 	"github.com/stretchr/testify/assert"
 	testifyhttp "github.com/stretchr/testify/http"
 	"net/http"

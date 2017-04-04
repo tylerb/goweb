@@ -2,8 +2,8 @@ package responders
 
 import (
 	codecsservices "github.com/tylerb/codecs/services"
-	"github.com/stretchr/goweb/context"
-	context_test "github.com/stretchr/goweb/webcontext/test"
+	"github.com/tylerb/goweb/context"
+	context_test "github.com/tylerb/goweb/webcontext/test"
 	"github.com/stretchr/testify/assert"
 	"net/url"
 	"testing"
@@ -145,7 +145,7 @@ func TestWriteResponseObject(t *testing.T) {
 
 }
 
-// https://github.com/stretchr/goweb/issues/20
+// https://github.com/tylerb/goweb/issues/20
 func TestWriteResponseObject_ContentNegotiation_AcceptHeader(t *testing.T) {
 
 	http := new(GowebHTTPResponder)
@@ -170,7 +170,7 @@ func TestWriteResponseObject_ContentNegotiation_AcceptHeader(t *testing.T) {
 
 }
 
-// https://github.com/stretchr/goweb/issues/20
+// https://github.com/tylerb/goweb/issues/20
 func TestWriteResponseObject_ContentNegotiation_HasCallback(t *testing.T) {
 
 	http := new(GowebHTTPResponder)
@@ -195,7 +195,7 @@ func TestWriteResponseObject_ContentNegotiation_HasCallback(t *testing.T) {
 
 }
 
-// https://github.com/stretchr/goweb/issues/20
+// https://github.com/tylerb/goweb/issues/20
 func TestWriteResponseObject_ContentNegotiation_FileExtension(t *testing.T) {
 
 	http := new(GowebHTTPResponder)

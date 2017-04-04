@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"github.com/stretchr/goweb/context"
+	"github.com/tylerb/goweb/context"
 	"regexp"
 )
 
